@@ -13,7 +13,7 @@ Task 1: Setting Up the Environment
  
 
 - [x] 1. Create a GitHub repository for this exercise.
-      https://github.com/BennySemyonov/matrix-devops
+https://github.com/BennySemyonov/matrix-devops
 
 - [ ] 2. Set up a Kubernetes cluster (locally using tools like Minikube or remotely using a cloud provider).
 
