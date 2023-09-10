@@ -12,7 +12,7 @@ Task 1: Setting Up the Environment
 
  
 
-- [ ] 1. Create a GitHub repository for this exercise.
+- [x] 1. Create a GitHub repository for this exercise.
 
 - [ ] 2. Set up a Kubernetes cluster (locally using tools like Minikube or remotely using a cloud provider).
 
