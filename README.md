@@ -27,6 +27,7 @@ Task 2: Containerizing a Python Application
  
 
 - [x] 4. Write a simple Python web application using a framework of your choice.
+- flask
 
 - [x] 5. Create a Dockerfile to containerize the Python application.
 
