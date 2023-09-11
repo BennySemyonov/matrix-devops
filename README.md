@@ -26,11 +26,12 @@ Task 2: Containerizing a Python Application
 
  
 
-- [ ] 4. Write a simple Python web application using a framework of your choice.
+- [x] 4. Write a simple Python web application using a framework of your choice.
 
-- [ ] 5. Create a Dockerfile to containerize the Python application.
+- [x] 5. Create a Dockerfile to containerize the Python application.
 
-- [ ] 6. Build the Docker image with docker-compose and push it to Docker Hub or another container registry.
+- [x] 6. Build the Docker image with docker-compose and push it to Docker Hub or another container registry.
+- benny1semyonov/matrix-devops in hub.docker
 
  
 
