@@ -64,7 +64,7 @@ jobs:
 
     # test the Docker image
     - 
-      name: Build
+      name: Test
       run: |-
         docker-compose run flask python3 -m pytest
 
