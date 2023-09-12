@@ -45,7 +45,7 @@ jobs:
       with:
         token_format: 'access_token'
         workload_identity_provider: ${{ secrets.workload_identity_provider }}
-        service_account: ${{ service_account }}
+        service_account: ${{ secrets.service_account }}
 
     # Alternative option - authentication via credentials json
     # - id: 'auth'
