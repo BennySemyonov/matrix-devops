@@ -1,6 +1,6 @@
 services:
   flask:
     build: .
-    image: benny1semyonov/matrix-devops
+    image: "${GAR_LOCATION}-docker.pkg.dev/${PROJECT_ID}/${REPOSITORY}/${IMAGE}:${GITHUB_SHA}"
     ports:
       - 80:80
