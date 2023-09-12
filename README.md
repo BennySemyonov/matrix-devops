@@ -41,10 +41,11 @@ Task 3: Implementing Continuous Integration
  
 
 - [x] 7. Set up a CI/CD pipeline using a CI/CD tool of your choice (e.g., Jenkins, GitLab CI/CD, GitHub Actions).
+- GitHub Actions
 
 - [x] 8. Configure the CI pipeline to trigger when changes are pushed to your GitHub repository.
 
-- [ ] 9. In the CI pipeline, build and test the Python application within a Docker container.
+- [x] 9. In the CI pipeline, build and test the Python application within a Docker container.
 
 - [ ] 10. Use ClearML to log and monitor the CI pipeline's performance and metrics.
 

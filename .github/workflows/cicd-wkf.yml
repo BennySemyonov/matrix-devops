@@ -15,9 +15,10 @@ env:
   GAR_LOCATION: ${{ secrets.GAR_LOCATION }}
   GKE_CLUSTER: ${{ secrets.GKE_CLUSTER }}
   GKE_ZONE: ${{ secrets.GKE_ZONE }}
-  DEPLOYMENT_NAME: flask-app
-  REPOSITORY: matrix-devops
-  IMAGE: flask-app
+  DEPLOYMENT_NAME: ${{ secrets.DEPLOYMENT_NAME }}
+  REPOSITORY: ${{ secrets.REPOSITORY }}
+  IMAGE: ${{ secrets.IMAGE }}
+  MAIN_SERVICE_NAME: ${{ secrets.MAIN_SERVICE_NAME }}
 
 jobs:
   setup-build-test-publish-deploy:
@@ -66,7 +67,7 @@ jobs:
     - 
       name: Test
       run: |-
-        docker-compose run flask python3 -m pytest
+        docker-compose run ${{ env.MAIN_SERVICE_NAME }} python3 -m pytest
 
     # Push the Docker image to Google Artifact Registry
     - 
