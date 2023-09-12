@@ -16,7 +16,7 @@ Task 1: Setting Up the Environment
 - https://github.com/BennySemyonov/matrix-devops
 
 - [x] 2. Set up a Kubernetes cluster (locally using tools like Minikube or remotely using a cloud provider).
-- minikube
+- GCP: #TODO give user
 
 - [x] 3. Install Docker on your local machine and ensure it's connected to your Kubernetes cluster.
 
@@ -32,7 +32,7 @@ Task 2: Containerizing a Python Application
 - [x] 5. Create a Dockerfile to containerize the Python application.
 
 - [x] 6. Build the Docker image with docker-compose and push it to Docker Hub or another container registry.
-- benny1semyonov/matrix-devops in hub.docker
+- matrix-devops/matrix-devops in europe-west1-docker.pkg.dev
 
  
 
@@ -40,9 +40,9 @@ Task 3: Implementing Continuous Integration
 
  
 
-- [ ] 7. Set up a CI/CD pipeline using a CI/CD tool of your choice (e.g., Jenkins, GitLab CI/CD, GitHub Actions).
+- [x] 7. Set up a CI/CD pipeline using a CI/CD tool of your choice (e.g., Jenkins, GitLab CI/CD, GitHub Actions).
 
-- [ ] 8. Configure the CI pipeline to trigger when changes are pushed to your GitHub repository.
+- [x] 8. Configure the CI pipeline to trigger when changes are pushed to your GitHub repository.
 
 - [ ] 9. In the CI pipeline, build and test the Python application within a Docker container.
 
