@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: flask-deployment
 spec:
+  progressDeadlineSeconds: 3600
   selector:
     matchLabels:
       app: flask-deployment
