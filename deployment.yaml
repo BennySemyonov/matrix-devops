@@ -15,6 +15,9 @@ spec:
       containers:
       - name: flask-app
         image: europe-west1-docker.pkg.dev/matrix-devops/matrix-devops/flask-app:latest
+        resources:
+          requests:
+            cpu: "100m"
         ports:
         - name: http
           containerPort: 80
