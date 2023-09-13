@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: flask-deployment
 spec:
-  replicas: 2
+  replicas: 1
   progressDeadlineSeconds: 3600
   selector:
     matchLabels:
@@ -18,7 +18,7 @@ spec:
         image: europe-west1-docker.pkg.dev/matrix-devops/matrix-devops/flask-app:latest
         resources:
           requests:
-            cpu: "100m"
+            cpu: 100m
         ports:
         - name: http
           containerPort: 80
