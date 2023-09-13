@@ -55,9 +55,9 @@ Task 4: Deploying to Kubernetes
 
  
 
-- [ ] 11. Create Kubernetes deployment and service YAML files for your Python application.
+- [x] 11. Create Kubernetes deployment and service YAML files for your Python application.
 
-- [ ] 12. Configure your CI/CD pipeline to deploy the Docker container to your Kubernetes cluster after successful tests.
+- [x] 12. Configure your CI/CD pipeline to deploy the Docker container to your Kubernetes cluster after successful tests.
 
  
 
