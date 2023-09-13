@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 80
 
-CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=80", "main.py"]
+CMD [ "python3", "-m" , "flask", "--app", "main", "run", "--host=0.0.0.0", "--port=80"]
