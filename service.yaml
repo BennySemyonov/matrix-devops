@@ -7,4 +7,4 @@ spec:
   - name: http
     port: 80
   selector:
-    app: flask-service
+    app: flask-deployment
