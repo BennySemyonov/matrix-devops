@@ -127,4 +127,4 @@ jobs:
       - 
         name: Check container logs
         run: |
-          kubectl logs deployment/${{ env.DEPLOYMENT_NAME }}
+          kubectl logs deployment/${{ env.DEPLOYMENT_NAME }} | grep -qEi 'fail|err' && echo "found shit" || echo "No errors found in logs."
