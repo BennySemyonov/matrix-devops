@@ -128,8 +128,8 @@ jobs:
       - 
         name: Check container logs
         run: |
-          set flagctl=0
-          kubectl logs -l app=${{ env.DEPLOYMENT_NAME }} | grep -qEi 'fail|err' && (echo "found errors, proceeding to rollout..." && kubectl rollout undo deployment/${{ env.DEPLOYMENT_NAME }} && set flagctl=1) || (echo "No errors found in logs.")
+          export flagctl=0
+          kubectl logs -l app=${{ env.DEPLOYMENT_NAME }} | grep -qEi 'fail|err' && (echo "found errors, proceeding to rollout..." && kubectl rollout undo deployment/${{ env.DEPLOYMENT_NAME }} && export flagctl=1) || (echo "No errors found in logs.")
           echo "$flagctl"
           echo $flagctl
           echo [ "$flagctl" = "1" ]
