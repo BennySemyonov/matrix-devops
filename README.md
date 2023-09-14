@@ -65,9 +65,9 @@ Task 5: Scaling and Monitoring
 
  
 
-- [ ] 13. Implement autoscaling for your Kubernetes deployment.
+- [x] 13. Implement autoscaling for your Kubernetes deployment.
 
-- [ ] 14. Set up monitoring and logging for your Kubernetes cluster (e.g., using Prometheus and Grafana/Zabbix).
+- [x] 14. Set up monitoring and logging for your Kubernetes cluster (e.g., using Prometheus and Grafana/Zabbix).
 
  
 
