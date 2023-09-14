@@ -130,5 +130,8 @@ jobs:
         run: |
           set flag-ctl=0
           kubectl logs -l app=${{ env.DEPLOYMENT_NAME }} | grep -qEi 'fail|err' && (echo "found errors, proceeding to rollout..." && kubectl rollout undo deployment/${{ env.DEPLOYMENT_NAME }} && set flag-ctl=1) || (echo "No errors found in logs.")
+          echo "$flag-ctl"
+          echo $flag-ctl
+          echo [ "$flag-ctl" = "1" ]
           [ "$flag-ctl" = "1" ] && exit 1
 
