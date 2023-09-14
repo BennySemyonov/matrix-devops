@@ -128,5 +128,5 @@ jobs:
       - 
         name: Check container logs
         run: |
-          kubectl logs -l app=${{ env.DEPLOYMENT_NAME }} deployment/${{ env.DEPLOYMENT_NAME }} | grep -qEi 'fail|err' && (echo "found errors, proceeding to rollout..." && kubectl rollout undo deployment/${{ env.DEPLOYMENT_NAME }} && exit 1) || (echo "No errors found in logs.")
+          kubectl logs -l app=${{ env.DEPLOYMENT_NAME }} | grep -qEi 'fail|err' && (echo "found errors, proceeding to rollout..." && kubectl rollout undo deployment/${{ env.DEPLOYMENT_NAME }} && exit 1) || (echo "No errors found in logs.")
 
