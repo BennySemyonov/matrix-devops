@@ -95,6 +95,11 @@ jobs:
   rollback:
     name: check errors in app and rollback if needed
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
     steps:
       # Configure Workload Identity Federation and generate an access token.
       - 
