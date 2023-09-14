@@ -127,4 +127,4 @@ jobs:
       - 
         name: Check container logs
         run: |
-          kubectl logs ${{ env.DEPLOYMENT_NAME }}
+          kubectl logs deployment/${{ env.DEPLOYMENT_NAME }}
