@@ -8,7 +8,7 @@ name: Build and Deploy to GKE
 
 on:
   push:
-    branches: [ "task56" ]
+    branches: [ "main" ]
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
@@ -125,8 +125,8 @@ jobs:
           cluster_name: ${{ env.GKE_CLUSTER }}
           location: ${{ env.GKE_ZONE }}
 
+      # Testing for errors in deployment logs(all pods) and rollouting if needed
       - 
         name: Check container logs
         run: |
           kubectl logs -l app=${{ env.DEPLOYMENT_NAME }} | grep -qEi 'fail|err|Error' && (echo "found errors, proceeding to rollout..." && kubectl rollout undo deployment/${{ env.DEPLOYMENT_NAME }} && exit 1) || echo "No errors found in logs."
-

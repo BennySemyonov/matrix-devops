@@ -48,7 +48,7 @@ Task 3: Implementing Continuous Integration
 - [x] 9. In the CI pipeline, build and test the Python application within a Docker container.
 
 - [ ] 10. Use ClearML to log and monitor the CI pipeline's performance and metrics.
-
+- #TODO give user
  
 
 Task 4: Deploying to Kubernetes
@@ -68,14 +68,14 @@ Task 5: Scaling and Monitoring
 - [x] 13. Implement autoscaling for your Kubernetes deployment.
 
 - [x] 14. Set up monitoring and logging for your Kubernetes cluster (e.g., using Prometheus and Grafana/Zabbix).
-
+- Prometheus + Grafana #TODO give user to grafana
  
 
 Task 6: Automating Rollbacks
 
  
 
-- [ ] 15. Implement automated rollbacks in your CI/CD pipeline based on predefined criteria (e.g., failed health checks).
+- [x] 15. Implement automated rollbacks in your CI/CD pipeline based on predefined criteria (e.g., failed health checks).
 
  
 
@@ -83,9 +83,9 @@ Task 7: Documentation and Reporting
 
  
 
-- [ ] 16. Document the entire process, including setup, CI/CD pipeline configuration, and Kubernetes deployment.
+- [x] 16. Document the entire process, including setup, CI/CD pipeline configuration, and Kubernetes deployment.
 
-- [ ] 17. Create a report summarizing your approach, challenges faced, and improvements you would make.
+- [x] 17. Create a report summarizing your approach, challenges faced, and improvements you would make.
 
  
 
@@ -93,7 +93,7 @@ Submission:
 
  
 
-- [ ] 18. Share the GitHub repository link with the instructions, code, and documentation.
+- [x] 18. Share the GitHub repository link with the instructions, code, and documentation.
 
  
 
