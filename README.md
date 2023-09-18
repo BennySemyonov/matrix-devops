@@ -16,7 +16,6 @@ Task 1: Setting Up the Environment
 - https://github.com/BennySemyonov/matrix-devops
 
 - [x] 2. Set up a Kubernetes cluster (locally using tools like Minikube or remotely using a cloud provider).
-- GCP: #TODO give user
 
 - [x] 3. Install Docker on your local machine and ensure it's connected to your Kubernetes cluster.
 
@@ -48,7 +47,6 @@ Task 3: Implementing Continuous Integration
 - [x] 9. In the CI pipeline, build and test the Python application within a Docker container.
 
 - [ ] 10. Use ClearML to log and monitor the CI pipeline's performance and metrics.
-- #TODO give user
  
 
 Task 4: Deploying to Kubernetes
