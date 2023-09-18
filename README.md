@@ -16,6 +16,7 @@ Task 1: Setting Up the Environment
 - https://github.com/BennySemyonov/matrix-devops
 
 - [x] 2. Set up a Kubernetes cluster (locally using tools like Minikube or remotely using a cloud provider).
+- GKE
 
 - [x] 3. Install Docker on your local machine and ensure it's connected to your Kubernetes cluster.
 
@@ -66,7 +67,7 @@ Task 5: Scaling and Monitoring
 - [x] 13. Implement autoscaling for your Kubernetes deployment.
 
 - [x] 14. Set up monitoring and logging for your Kubernetes cluster (e.g., using Prometheus and Grafana/Zabbix).
-- Prometheus + Grafana #TODO give user to grafana
+- Prometheus + Grafana
  
 
 Task 6: Automating Rollbacks
